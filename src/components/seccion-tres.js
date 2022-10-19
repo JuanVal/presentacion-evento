@@ -25,9 +25,11 @@ class SeccionTres extends HTMLElement {
         background-color: white;
         padding: 1rem 0;
         border-radius: 8px;
+         box-shadow: 5px 3px 16px 2px rgba(0,0,0,.9);
       }
       article{
         padding: 1rem ;
+        
       }
     `;
   }

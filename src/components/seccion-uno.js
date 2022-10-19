@@ -20,10 +20,12 @@ class SeccionUno extends HTMLElement {
         justify-content: flex-end;
         width: 90%;
         height: 90%;
-        color: #fff;
+        color: white;
+        text-shadow: 4px 4px 2px rgba(0,0,0,.8), 6px 6px 3px rgba(0,0,0,.8), 8px 8px 4px rgba(0,0,0,.8);
+        font-weight: 900;
       }
       h2{
-        font-size: 3em;
+        font-size: 4em;
       }
     `;
   }

@@ -23,6 +23,7 @@ class SeccionCinco extends HTMLElement {
         background-color: transparent;
         color: #fff;
         padding: 4em 2rem;
+     
       }
     `;
   }

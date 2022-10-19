@@ -27,6 +27,7 @@ class SeccionDos extends HTMLElement {
         display: flex;
         width: 90%;
         height:  100%;
+        overflow: hidden;
       }
       .evento{
          display: grid;
@@ -36,7 +37,7 @@ class SeccionDos extends HTMLElement {
          background-color: white;
          padding: 1rem;
          border-radius: 8px;
-        
+         box-shadow: 5px 3px 16px 2px rgba(0,0,0,.9);
       }
     `;
   }

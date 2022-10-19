@@ -77,11 +77,13 @@ class Layout extends HTMLElement {
         grid-row:  24 /-1;
       }
       .fixed{
+       
         position: absolute;
         color: #333;
         background: rgba(255,0,0,.8);
-        background: url('https://w0.peakpx.com/wallpaper/98/184/HD-wallpaper-green-metal-arrows-creative-3d-arrows-green-metal-grid-background-green-arrows-background-with-arrows-arrows-concepts-arrows.jpg');
-      
+        background: url('https://marketing.twitter.com/content/dam/marketing-twitter/latam/es/success-stories/coca-cola/cocacola-header.jpg.twimg.1920.jpg');
+        background-position: center;
+        background-repeat: none;
         height: 85%;
         width: 200%;
         z-index: 1;
@@ -90,7 +92,9 @@ class Layout extends HTMLElement {
         clip-path: inset(33% 0 33% 0);
         transition: transform 2s ease;
         top: 50%;
-        transform: translate(-25%,-70%)  rotateZ(-190deg)
+        box-shadow:0px 0px 2px 5px rgba(0,0,0,.9);
+       
+        transform: translate(-25%,-70%)  rotateX(-190deg) rotateY(-190deg) rotateZ(-190deg) ;
       }
     `;
   }
