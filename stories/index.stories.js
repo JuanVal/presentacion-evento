@@ -6,4 +6,4 @@ export default {
   },
 };
 
-export const presentacionEvento = () => `<h1>Hola Mundo</h1>`;
+export const presentacionEvento = () => `<njv-layout />`;
