@@ -12,7 +12,7 @@ class SeccionDos extends HTMLElement {
       <style>${SeccionDos.styles}</style>
     
         <article >
-          <h1>Tutulo del evento</h1>
+          <h1>Título del evento</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero fugit dolore ipsam, ad nam perspiciatis dignissimos cumque velit, architecto qui eligendi quos? Necessitatibus maiores eos repellendus veritatis totam dicta beatae ea nostrum consequatur, asperiores cumque porro animi tempore facilis aut alias molestiae officiis, minima officia ad blanditiis nisi eaque mollitia voluptatum! Eum, distinctio odit. Natus iure atque animi, voluptas ducimus odit rem minus perferendis enim eius neque dolorum dolore cum dolorem nobis quasi veritatis maiores doloremque repellendus non fugiat! Voluptatum similique dolores accusantium tempore laboriosam, repellendus possimus optio, rerum amet sapiente vel dolorem quasi nesciunt numquam hic non blanditiis!
           </p>
