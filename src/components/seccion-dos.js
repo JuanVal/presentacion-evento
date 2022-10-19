@@ -11,7 +11,7 @@ class SeccionDos extends HTMLElement {
     this.shadowRoot.innerHTML = /*html*/ `
       <style>${SeccionDos.styles}</style>
     
-        <article class="evento">
+        <article >
           <h1>Tutulo del evento</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero fugit dolore ipsam, ad nam perspiciatis dignissimos cumque velit, architecto qui eligendi quos? Necessitatibus maiores eos repellendus veritatis totam dicta beatae ea nostrum consequatur, asperiores cumque porro animi tempore facilis aut alias molestiae officiis, minima officia ad blanditiis nisi eaque mollitia voluptatum! Eum, distinctio odit. Natus iure atque animi, voluptas ducimus odit rem minus perferendis enim eius neque dolorum dolore cum dolorem nobis quasi veritatis maiores doloremque repellendus non fugiat! Voluptatum similique dolores accusantium tempore laboriosam, repellendus possimus optio, rerum amet sapiente vel dolorem quasi nesciunt numquam hic non blanditiis!
@@ -27,17 +27,11 @@ class SeccionDos extends HTMLElement {
         display: flex;
         width: 90%;
         height:  100%;
-        overflow: hidden;
+        background-color: white;
       }
-      .evento{
-         display: grid;
-         align-items: center;
-         width: 100%;
-         height:  100%;
-         background-color: white;
-         padding: 1rem;
-         border-radius: 8px;
-         box-shadow: 5px 3px 16px 2px rgba(0,0,0,.9);
+      article{
+        padding: 1rem ;
+        
       }
     `;
   }

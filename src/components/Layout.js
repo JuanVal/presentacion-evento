@@ -35,7 +35,7 @@ class Layout extends HTMLElement {
       :host{
         display: grid;
         width: 100%;
-        height: 200vh;
+        height: 400vh;
         gap: 2px 0;
         grid-template-columns: repeat(24, 1fr);
         grid-template-rows: repeat(48, 1fr);
@@ -56,45 +56,45 @@ class Layout extends HTMLElement {
         z-index: 3;
       }
       .seccion-1{
-    
         grid-column: 1 / -1;
         grid-row: 3;
       }
       .seccion-2{
-        grid-column: 1 / span 10;
-        grid-row: 6 / 19;
+        grid-column: 1 / span 9;
+        grid-row: 6 / 14;
+     
       }
       .seccion-3{
         grid-column: 16 / span 9;
-        grid-row: 7 / 19;
+        grid-row: 6 / 14;
+       
       }
       .seccion-4{
         grid-column: 1 / -1 ;
-        grid-row: 21 / 24;
+        grid-row: 14 / 16;
+    
       }
       .seccion-5{
         grid-column: 1 / -1 ;
-        grid-row:  24 /-1;
+        grid-row:  16 / -1;
+   
       }
       .fixed{
        
         position: absolute;
         color: #333;
-        background: rgba(255,0,0,.8);
+        background: rgba(54,54,54,.8);
         background: url('https://marketing.twitter.com/content/dam/marketing-twitter/latam/es/success-stories/coca-cola/cocacola-header.jpg.twimg.1920.jpg');
         background-position: center;
         background-repeat: none;
-        height: 85%;
+        height: 45%;
         width: 200%;
         z-index: 1;
-        grid-column: 1 / -1 ;
-        grid-row:  1 / -1;
         clip-path: inset(33% 0 33% 0);
         transition: transform 2s ease;
         top: 50%;
         box-shadow:0px 0px 2px 5px rgba(0,0,0,.9);
-       
-        transform: translate(-25%,-70%)  rotateX(-190deg) rotateY(-190deg) rotateZ(-190deg) ;
+        transform: translate(-25%,-118%)  rotateX(-190deg) rotateY(-190deg) rotateZ(-190deg) ;
       }
     `;
   }

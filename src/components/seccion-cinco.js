@@ -10,21 +10,35 @@ class SeccionCinco extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = /*html*/ `
       <style>${SeccionCinco.styles}</style>
-      <h1>Información</h1>
-      <a href="http://www.freepik.com">Designed by kjpargeter / Freepik</a>
+      <h2>Información</h2>
+    
+     
+   
     `;
   }
   static get styles() {
     return /*css*/ `
       :host{
-        display: block;
+        display: grid;
+        gap: 2em 0;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(24, 1fr);
         width: 100%;
-        height:  100%;
-        background-color: transparent;
+        height:  265vh;
+        background-color: #0008;
         color: #fff;
-        padding: 4em 2rem;
      
+    
       }
+      h2{
+        grid-column: 1 / -1;
+        text-align: center;
+        font-size: 3em;
+        margin: 0;
+        padding: 0;
+        text-shadow: 4px 4px 2px rgba(0,0,0,.8), 6px 6px 3px rgba(0,0,0,.8), 8px 8px 4px rgba(0,0,0,.8);
+      }
+     
     `;
   }
   disconnectedCallback() {
