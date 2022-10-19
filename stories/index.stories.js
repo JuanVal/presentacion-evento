@@ -6,4 +6,4 @@ export default {
   },
 };
 
-export const story1 = () => `<my-counter></my-counter>`;
+export const presentacionEvento = () => `<h1>Hola Mundo</h1>`;
